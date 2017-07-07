@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.name         = "YSHCustomView"
   s.version      = "0.0.1"
-  s.summary      = “yshkkkkkkkkkkkkkkkkkkkkkkk”
+  s.summary      = "0.0.1"
 
 
   s.description  = <<-DESC
