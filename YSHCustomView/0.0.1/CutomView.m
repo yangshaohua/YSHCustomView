@@ -7,7 +7,7 @@
 //
 
 #import "CutomView.h"
-#import "Masonry.h"
+//#import "Masonry.h"
 @implementation CutomView
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -23,8 +23,8 @@
     view.backgroundColor = [UIColor redColor];
     [self addSubview:view];
     
-    [view mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_offset(self);
-    }];
+//    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.edges.mas_offset(self);
+//    }];
 }
 @end
